@@ -1,0 +1,51 @@
+{
+  "String_Accent": {
+    "message": "Accent"
+  },
+  "String_Appearance": {
+    "message": "Appearance"
+  },
+  "String_Cancel": {
+    "message": "Cancel"
+  },
+  "String_Error": {
+    "message": "Error"
+  },
+  "String_ErrorConvertingFile": {
+    "message": "Error converting file."
+  },
+  "String_ErrorOpeningFIle": {
+    "message": "Error opening file."
+  },
+  "String_FileName": {
+    "message": "File Name:"
+  },
+  "String_Language": {
+    "message": "Language"
+  },
+  "String_No": {
+    "message": "No"
+  },
+  "String_NoFile": {
+    "message": "No file"
+  },
+  "String_Ok": {
+    "message": "Ok"
+  },
+  "String_Open": {
+    "message": "Open"
+  },
+  "String_Settings": {
+    "message": "Settings"
+  },
+  "String_Theme": {
+    "message": "Theme"
+  },
+
+  "ToolTip_Github": {
+    "message": "Opens the Author's GitHub."
+  },
+  "ToolTip_Settings": {
+    "message": "Opens the Application settings"
+  }
+}

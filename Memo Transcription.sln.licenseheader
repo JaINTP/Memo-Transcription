@@ -1,0 +1,15 @@
+﻿extensions: designer.cs generated.cs
+extensions: .cs .xaml.cs
+// ***********************************************************************
+// Assembly         : %Project%
+// Author           : %UserDisplayName%
+// Created          : %CreationDay%-%CreationMonth%-%CreationYear%
+//
+// Last Modified By : %UserDisplayName%
+// Last Modified On : %CreationDay%-%CreationMonth%-%CreationYear%
+// ***********************************************************************
+// <copyright file="%FileName%" company="%UserDisplayName%">
+//     Copyright (c) %CreationYear% Jai Brown. All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************

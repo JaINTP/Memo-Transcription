@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{DE783A6B-FFA5-42E7-BC44-3A106B363238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{079DD3B4-9943-43E4-B48A-2FF1FD91E1F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75069356-8C5B-42A6-9F58-D784C0991BE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B106F74-3C9F-4435-AFF6-EEF47DDF65F9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Memo Transcription.sln.licenseheader = Memo Transcription.sln.licenseheader
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTrans.Services", "src\Services\MemTrans.Services\MemTrans.Services.csproj", "{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54} = {ACB1C6FE-2084-4741-8FC7-82A576D59A54}
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E} = {EA19B92A-04D0-4FDB-937C-E7EB2F22656E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTrans.Services.Interfaces", "src\Services\MemTrans.Services.Interfaces\MemTrans.Services.Interfaces.csproj", "{ACB1C6FE-2084-4741-8FC7-82A576D59A54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E} = {EA19B92A-04D0-4FDB-937C-E7EB2F22656E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTrans", "src\MemTrans\MemTrans.csproj", "{4EDCCCFD-4F09-499C-A8A7-111D82F84FED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{686F461B-CD86-41B3-AD92-4CB610055585} = {686F461B-CD86-41B3-AD92-4CB610055585}
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54} = {ACB1C6FE-2084-4741-8FC7-82A576D59A54}
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF} = {B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E} = {EA19B92A-04D0-4FDB-937C-E7EB2F22656E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTrans.Modules.UI", "src\Modules\MemTrans.Modules.UI\MemTrans.Modules.UI.csproj", "{686F461B-CD86-41B3-AD92-4CB610055585}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54} = {ACB1C6FE-2084-4741-8FC7-82A576D59A54}
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF} = {B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E} = {EA19B92A-04D0-4FDB-937C-E7EB2F22656E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemTrans.Core", "src\MemTrans.Core\MemTrans.Core.csproj", "{EA19B92A-04D0-4FDB-937C-E7EB2F22656E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDCCCFD-4F09-499C-A8A7-111D82F84FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDCCCFD-4F09-499C-A8A7-111D82F84FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDCCCFD-4F09-499C-A8A7-111D82F84FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDCCCFD-4F09-499C-A8A7-111D82F84FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686F461B-CD86-41B3-AD92-4CB610055585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686F461B-CD86-41B3-AD92-4CB610055585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686F461B-CD86-41B3-AD92-4CB610055585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686F461B-CD86-41B3-AD92-4CB610055585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE783A6B-FFA5-42E7-BC44-3A106B363238} = {75069356-8C5B-42A6-9F58-D784C0991BE1}
+		{079DD3B4-9943-43E4-B48A-2FF1FD91E1F1} = {75069356-8C5B-42A6-9F58-D784C0991BE1}
+		{B61E8EA2-C6F1-412E-9E98-D9A90DFD47BF} = {079DD3B4-9943-43E4-B48A-2FF1FD91E1F1}
+		{ACB1C6FE-2084-4741-8FC7-82A576D59A54} = {079DD3B4-9943-43E4-B48A-2FF1FD91E1F1}
+		{4EDCCCFD-4F09-499C-A8A7-111D82F84FED} = {75069356-8C5B-42A6-9F58-D784C0991BE1}
+		{686F461B-CD86-41B3-AD92-4CB610055585} = {DE783A6B-FFA5-42E7-BC44-3A106B363238}
+		{EA19B92A-04D0-4FDB-937C-E7EB2F22656E} = {75069356-8C5B-42A6-9F58-D784C0991BE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8370737-68B6-4F53-895D-1FD834F7D772}
+	EndGlobalSection
+EndGlobal
